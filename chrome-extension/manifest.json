@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "AI Meeting Assistant Recorder",
+  "version": "1.0.0",
+  "description": "Record audio from Zoom and Google Meet in your browser and send to AI Meeting Assistant for transcription and summary.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "tabs",
+    "tabCapture"
+  ],
+  "host_permissions": [
+    "https://meet.google.com/*",
+    "https://*.zoom.us/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+} 

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Meeting Assistant Recorder</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; padding: 16px; width: 250px; background: #f8fafc; }
+    h2 { font-size: 1.2rem; margin-bottom: 1rem; }
+    button { margin: 0.5rem 0; padding: 0.5rem 1rem; font-size: 1rem; border-radius: 8px; border: none; cursor: pointer; }
+    #status { margin-top: 1rem; font-size: 0.95rem; color: #555; }
+    .start { background: linear-gradient(90deg, #2563eb, #a21caf); color: #fff; }
+    .stop { background: #dc2626; color: #fff; }
+  </style>
+</head>
+<body>
+  <h2>AI Meeting Assistant</h2>
+  <button id="startBtn" class="start">Start Recording</button>
+  <button id="stopBtn" class="stop" disabled>Stop Recording</button>
+  <div id="status">Idle</div>
+  <script src="popup.js"></script>
+</body>
+</html> 
